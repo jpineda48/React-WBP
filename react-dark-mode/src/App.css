@@ -1,52 +1,22 @@
-.app {
-  display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: 60px 1fr 60px;
-}
-
-.dark-mode-body {
-  text-align: center;
-  background-color: black;
-  color: white;
-  padding: 10px;
-  
-}
-
-.dark-mode-nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 60px;
-  background-color: black;
-  color: white;
+.content {
   padding: 10px;
 }
 
-.light-mode-body {
+.theme {
   text-align: center;
   background-color: white;
   color: black;
-  padding: 10px;
-
+  margin: 0;
 }
 
-.light-mode-nav {
+nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
   height: 60px;
-  background-color: gray;
-  font-weight: bold;
-  color: white;
   padding: 10px;
-}
-
-/* body {
-  background-color: black;
-} */
-
-nav {
-  
+  background-color:rgba(61, 66, 61, 0.3);
+  font-weight: bold;
 }
 
 footer {
@@ -65,8 +35,3 @@ ul {
 ul li {
   margin: 0 10px;
 }
-
-/* .light-mode-nav a {
-  font-weight: bold;
-  color: white;
-} */
