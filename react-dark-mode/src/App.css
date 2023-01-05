@@ -1,8 +1,15 @@
-.content {
+.dark-mode {
   padding: 10px;
+  height: 100vh;
+  text-align: center;
+  background-color: black;
+  color: white;
+  margin: 0;
 }
 
-.theme {
+.light-mode {
+  padding: 10px;
+  height: 100vh;
   text-align: center;
   background-color: white;
   color: black;
@@ -15,14 +22,16 @@ nav {
   justify-content: space-between;
   height: 60px;
   padding: 10px;
-  background-color:rgba(61, 66, 61, 0.3);
+  background-color:rgba(41, 41, 41, 0.4);
   font-weight: bold;
 }
 
 footer {
   position: absolute;
+  text-align: center;
   bottom: 0;
   width: 100%;
+  color:rgba(41, 41, 41, 0.6);
 }
 
 ul {

@@ -1,6 +1,6 @@
-const Welcome = () => {
+const Welcome = (props) => {
   return (
-    <div className="content">
+    <div className={props.theme}>
     <section>
       <h2>Welcome to Our Software Development Company</h2>
       <p>We specialize in building custom software solutions for businesses of all sizes. Our team of experienced developers is ready to bring your project to life.</p>

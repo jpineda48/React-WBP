@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <footer>
-      <div className="dark-mode-nav">
+      <div>
         <p>Copyright 2021 ABC Development. All rights reserved.</p>
       </div>
     </footer>

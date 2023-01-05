@@ -1,4 +1,16 @@
-const Header = () => {
+import { useState } from "react"
+
+const Header = (props) => {
+
+  const [clicked, toggleClicked] = useState(true)
+  let buttonText
+  clicked ? buttonText = 'Light Mode': buttonText = 'Dark Mode'
+  clicked ? props.setTheme('dark-mode') : props.setTheme('light-mode')
+  
+  let onClick = () => {
+    toggleClicked(!clicked)
+  }
+
   return (
     <header>
       <nav>
@@ -29,7 +41,7 @@ const Header = () => {
             <a href="#contact">CONTACT</a>
           </li>
           <li>
-            <button>Dark Mode</button>
+            <button onClick={onClick}>{buttonText}</button>
           </li>
         </ul>
       </nav>
