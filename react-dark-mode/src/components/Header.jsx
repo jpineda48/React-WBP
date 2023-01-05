@@ -1,7 +1,7 @@
 const Header = () => {
   return (
     <header>
-      <nav className="light-mode-nav">
+      <nav className="dark-mode-nav">
         <h1>ABC Development</h1>
         <ul>
           <li><a href="#welcome">Home</a></li>

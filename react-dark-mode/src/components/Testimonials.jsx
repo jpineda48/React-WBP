@@ -1,6 +1,6 @@
 const Testimonials = () => {
   return (
-    <section className="light-mode-body">
+    <section className="dark-mode-body">
       <h2>What Our Clients Say</h2>
       <blockquote>
         <p>The team at ABC Development did an amazing job on our project. They were able to deliver exactly what we needed in a timely and professional manner.</p>
