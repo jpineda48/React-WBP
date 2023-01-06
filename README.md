@@ -28,4 +28,4 @@ When working through this scenario make sure to follow a pattern of tracking you
 <img width="849" alt="kanban" src="https://git.generalassemb.ly/nayaba-ga/03-react-state-wbp/blob/5e47b3d821339f8147b2518fef73634fd1e78acf/Screen%20Shot%202023-01-05%20at%209.17.05%20PM.png">
 
 ## Resources
-- [Trello Board](https://trello.com/b/JFk4Z6Mr/components-props-wbp)
+- [Trello Board](https://trello.com/b/675B5iDp/react-state-wbp)
