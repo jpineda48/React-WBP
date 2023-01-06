@@ -25,6 +25,7 @@ Based on user feedback, the Customer Success Team at your company has determined
 ## Trello Board
 When working through this scenario make sure to follow a pattern of tracking your specific, component based tasks in Trello.  When working on a task make sure to move the associated ticket to the "In Progress" column.  Once you have successfully gotten the test to pass for a specific component you are free to move that ticket to "Done".  Make sure to work on only one ticket at a time.
 
+<img width="849" alt="kanban" src="https://git.generalassemb.ly/nayaba-ga/03-react-state-wbp/blob/5e47b3d821339f8147b2518fef73634fd1e78acf/Screen%20Shot%202023-01-05%20at%209.17.05%20PM.png">
 
 ## Resources
 - [Trello Board](https://trello.com/b/JFk4Z6Mr/components-props-wbp)
