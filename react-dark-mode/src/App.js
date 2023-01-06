@@ -1,6 +1,6 @@
 import './App.css';
 import Header from './components/Header'
-import Welcome from './components/Welcome'
+import Main from './components/Main'
 import Footer from './components/Footer'
 import { useState } from 'react';
 
@@ -10,7 +10,7 @@ function App() {
   return (
     <div>
       <Header theme={theme} setTheme={setTheme} />
-      <Welcome theme={theme} />
+      <Main theme={theme} />
       <Footer theme={theme} />
     </div>
   );
