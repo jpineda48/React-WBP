@@ -1,10 +1,10 @@
 # React State Work Based Problem
 
-## The Scenario
+![scenario](/assets/banner-scenario.png)
 
 Based on user feedback, the Customer Success Team at your company has determined that a dark mode feature needs to be implemented in the latest update to your company’s website.  You have been tasked with creating a working test of the proposed dark mode button.  Another developer has set up the React application with a non-functioning button and written some tests to enforce the criteria and structure requested by your company.  It is your responsibility to give functionality to that button.
 
-## Requirements
+![requirements](/assets/banner-requirements.png)
 
 1.  Modify the existing “theme” button to dynamically render the text “Dark Mode” or “Light Mode”
 
@@ -14,18 +14,49 @@ Based on user feedback, the Customer Success Team at your company has determined
 
 4.  Run the test suite for the react app to check if your automated tests are passing as you work through this task.  You will start with four failing tests and hope to progressively get the tests to pass as you implement state and modify content.
 
+---
 
-## Steps to complete tickets
+![tickets](/assets/banner-tickets.png)
+
+[Trello Board](https://trello.com/b/675B5iDp/react-state-wbp)
+
+![trello board](/assets/M3L3-4-trello-board.png)
+
+---
+
+![coding practice](/assets/banner-coding.png)
+#### Step 1 - Setup:
+
 1. Fork and clone this repo
-2. Make sure to also navigate to this [Trello board](https://trello.com/b/675B5iDp/react-state-wbp)
-3. Navigate into the react-dark-mode sub directory and run ‘npm install’ to install the needed dependencies to run your React app and tests.
-4. Move your ticket for the clicked state into the “In Progress” column in the Trello board and work through the checklist listed on the ticket.
-5. After you complete the checklist for the ticket, move it to the “Done” column and repeat the process for each subsequent ticket.  This exercise is all about repetition and comfort with creating and modifying state in React.
+1. Navigate into the react-dark-mode sub directory and run ‘npm install’ to install the needed dependencies to run your React app and tests.
 
-## Trello Board
-When working through this scenario make sure to follow a pattern of tracking your specific, component based tasks in Trello.  When working on a task make sure to move the associated ticket to the "In Progress" column.  Once you have successfully gotten the test to pass for a specific component you are free to move that ticket to "Done".  Make sure to work on only one ticket at a time.
+#### Step 2 - Create clicked state:
+1. Create a Nav component to hold the `<nav>` tags and all of the content within them.
+1. Working in the `Header` component, import the necessary hook from react to create a new piece of state
+1. Call your state `clicked`
+1. Ensure you choose an appropriate setter name in keeping with convention
+1. Give your state an initial value of `true`. Use your react dev tools to ensure you've set up your state correctly
 
-<img width="849" alt="kanban" src="https://git.generalassemb.ly/nayaba-ga/03-react-state-wbp/blob/5e47b3d821339f8147b2518fef73634fd1e78acf/Screen%20Shot%202023-01-05%20at%209.17.05%20PM.png">
+#### Step 3 - Add dynamic rendering to the theme button:
+1. Modify the theme button so that it renders a variable called `buttonText` rather than `"theme button"`. Set the initial value to an empty string.
+1. Write a ternary expression to change the value of `buttonText` to the string `"Light Mode"` or `"Dark Mode"` depending on whether the clicked state is `true` or `false`.
 
-## Resources
-- [Trello Board](https://trello.com/b/675B5iDp/react-state-wbp)
+#### Step 4 - Write an `onClick` function for the theme button:
+1. Write an `onClick` function using a simple `console.log` of your choice for testing purposes.
+1. Wire up the `onClick` function to the theme button and test it out in the browser - you should see your text in the console.
+1. Update your `onClick` function to toggle the clicked state, switching it back and forth between `true` and `false` (hint - the logical `NOT` may be useful here).
+1. Using your react dev tools, ensure that the state is switching between `true` and `false` with each click.
+
+#### Step 5 - Update the value of the theme state:
+1. Use a ternary expression and the theme state setter to assign one of two classes (strings) to the theme state that exists on `app.js`.
+1. This ternary should change theme to the string "dark-mode" when clicked is `true`.
+1. This ternary should change theme to the string "light-mode" when clicked is `false`.
+1. Run the "npm run test" command in your `"react-dark-mode"` directory from the command line and make sure all tests pass.
+
+
+
+This exercise is all about repetition and comfort with creating and modifying state in React.
+
+<!-- ## Trello Board
+When working through this scenario make sure to follow a pattern of tracking your specific, component based tasks in Trello.  When working on a task make sure to move the associated ticket to the "In Progress" column.  Once you have successfully gotten the test to pass for a specific component you are free to move that ticket to "Done".  Make sure to work on only one ticket at a time. -->
+
