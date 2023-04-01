@@ -4,6 +4,8 @@
 
 Based on user feedback, the Customer Success Team at your company has determined that a dark mode feature needs to be implemented in the latest update to your company’s website.  You have been tasked with creating a working test of the proposed dark mode button.  Another developer has set up the React application with a non-functioning button and written some tests to enforce the criteria and structure requested by your company.  It is your responsibility to give functionality to that button.
 
+---
+
 ![requirements](/assets/banner-requirements.png)
 
 1.  Modify the existing “theme” button to dynamically render the text “Dark Mode” or “Light Mode”
