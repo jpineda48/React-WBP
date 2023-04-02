@@ -1,4 +1,4 @@
-# React State - WBP
+# React State
 
 ![scenario](/assets/banner-scenario.png)
 
