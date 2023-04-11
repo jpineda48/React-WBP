@@ -27,29 +27,29 @@ Based on user feedback, the Customer Success Team at your company has determined
 ---
 
 ![coding practice](/assets/banner-coding.png)
-#### Step 1 - Setup:
+#### Step 1:
 
 1. Fork and clone this repo
 1. Navigate into the react-dark-mode sub directory and run ‘npm install’ to install the needed dependencies to run your React app and tests.
 
-#### Step 2 - Create clicked state:
+#### Step 2:
 1. Create a Nav component to hold the `<nav>` tags and all of the content within them.
 1. Working in the `Header` component, import the necessary hook from react to create a new piece of state
 1. Call your state `clicked`
 1. Ensure you choose an appropriate setter name in keeping with convention
 1. Give your state an initial value of `true`. Use your react dev tools to ensure you've set up your state correctly
 
-#### Step 3 - Add dynamic rendering to the theme button:
+#### Step 3:
 1. Modify the theme button so that it renders a variable called `buttonText` rather than `"theme button"`. Set the initial value to an empty string.
 1. Write a ternary expression to change the value of `buttonText` to the string `"Light Mode"` or `"Dark Mode"` depending on whether the clicked state is `true` or `false`.
 
-#### Step 4 - Write an `onClick` function for the theme button:
+#### Step 4:
 1. Write an `onClick` function using a simple `console.log` of your choice for testing purposes.
 1. Wire up the `onClick` function to the theme button and test it out in the browser - you should see your text in the console.
 1. Update your `onClick` function to toggle the clicked state, switching it back and forth between `true` and `false` (hint - the logical `NOT` may be useful here).
 1. Using your react dev tools, ensure that the state is switching between `true` and `false` with each click.
 
-#### Step 5 - Update the value of the theme state:
+#### Step 5:
 1. Use a ternary expression and the theme state setter to assign one of two classes (strings) to the theme state that exists on `app.js`.
 1. This ternary should change theme to the string "dark-mode" when clicked is `true`.
 1. This ternary should change theme to the string "light-mode" when clicked is `false`.
