@@ -29,7 +29,7 @@ Based on user feedback, the Customer Success Team at your company has determined
 ![coding practice](/assets/banner-coding.png)
 #### Step 1:
 
-1. Fork and clone this repo
+1. Fork and clone [this](https://git.generalassemb.ly/SEI-Standard-Curriculum/M3L3-4-react-state-handling-input-events-wbp) repo
 1. Navigate into the react-dark-mode sub directory and run ‘npm install’ to install the needed dependencies to run your React app and tests.
 
 #### Step 2:
