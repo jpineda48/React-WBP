@@ -20,7 +20,7 @@ Based on user feedback, the Customer Success Team at your company has determined
 
 ![tickets](/assets/banner-tickets.png)
 
-[Trello Board](https://trello.com/b/7z1lDKxr/react-state)
+<!-- [Trello Board](https://trello.com/b/7z1lDKxr/react-state) -->
 
 ![trello board](/assets/M3L3-4-react-state-trello-board.png)
 
