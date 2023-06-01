@@ -1,12 +1,12 @@
 # React State
 
-![scenario](/assets/banner-scenario.png)
+![scenario](./assets/banner-scenario.png)
 
 Based on user feedback, the Customer Success Team at your company has determined that a dark mode feature needs to be implemented in the latest update to your company’s website.  You have been tasked with creating a working test of the proposed dark mode button.  Another developer has set up the React application with a non-functioning button and written some tests to enforce the criteria and structure requested by your company.  It is your responsibility to give functionality to that button.
 
 ---
 
-![requirements](/assets/banner-requirements.png)
+![requirements](./assets/banner-requirements.png)
 
 1.  Modify the existing “theme” button to dynamically render the text “Dark Mode” or “Light Mode”
 
@@ -18,15 +18,15 @@ Based on user feedback, the Customer Success Team at your company has determined
 
 ---
 
-![tickets](/assets/banner-tickets.png)
+![tickets](./assets/banner-tickets.png)
 
 <!-- [Trello Board](https://trello.com/b/7z1lDKxr/react-state) -->
 
-![trello board](/assets/M3L3-4-react-state-trello-board.png)
+![trello board](./assets/M3L3-4-react-state-trello-board.png)
 
 ---
 
-![coding practice](/assets/banner-coding.png)
+![coding practice](./assets/banner-coding.png)
 #### Step 1:
 
 1. Fork and clone [this](https://git.generalassemb.ly/SEI-Standard-Curriculum/M3L3-4-react-state-handling-input-events-wbp) repo
