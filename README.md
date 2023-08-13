@@ -2,7 +2,11 @@
 
 ![scenario](./assets/banner-scenario.png)
 
-Based on user feedback, the Customer Success Team at your company has determined that a dark mode feature needs to be implemented in the latest update to your company’s website.  You have been tasked with creating a working test of the proposed dark mode button.  Another developer has set up the React application with a non-functioning button and written some tests to enforce the criteria and structure requested by your company.  It is your responsibility to give functionality to that button.
+You are an employee at Dark Mode Inc., a startup company that is developing a new software development tool that allows developers to easily add dark mode to their websites and applications. You have been tasked with creating a working test of the proposed dark mode button for the company's website. Another developer has set up the React application with a non-functioning button and written some tests to enforce the criteria and structure requested by the company. It is your responsibility to give functionality to that button.
+
+The button is supposed to toggle the dark mode theme of the website. When the button is clicked, the website should switch to dark mode if it is currently in light mode, and vice versa.
+
+Once you have the button working, you'll need to test it to make sure that it is working as expected. Conveniently, you can use the tests that the other developer has written to help you. These tests will verify whether or not the button is toggled correctly and that it changes the theme of the website as expected.
 
 ---
 
