@@ -1,4 +1,9 @@
+import { useState } from "react"
+
+
+
 const Header = () => {
+  const [clicked, setClicked] = useState(true)
   return (
     <header>
       <nav>
@@ -29,7 +34,9 @@ const Header = () => {
             <a href="#contact">CONTACT</a>
           </li>
           <li>
-            <button>theme button</button>
+          <button onClick ={()=> setClicked((prevState) => !prevState)}>
+            { clicked === true ? "Dark Mode" : "Light Mode"}
+            </button>
           </li>
         </ul>
       </nav>
