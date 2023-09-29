@@ -2,8 +2,9 @@ import { useState } from "react"
 
 
 
-const Header = () => {
+const Header = (props) => {
   const [clicked, setClicked] = useState(true)
+  clicked ? props.setTheme('dark-mode') : props.setTheme('light-mode')
   return (
     <header>
       <nav>

@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div>
-      <Header />
+      <Header theme={theme} setTheme={setTheme} />
      
       <Main theme={theme} />
       <Footer theme={theme} />
